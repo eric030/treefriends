@@ -1,0 +1,173 @@
+img{
+    
+    left:-1000px;
+    position: fixed;
+}
+
+@keyframes slide200 {
+  0% {
+    left: -1000px;
+    top: 0;
+  }
+  100% {
+    left: 17px;
+    top: 30px;
+  }
+}
+
+#telefon1 {
+  animation: slide200 1s ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; 
+    
+}
+
+
+
+@keyframes slide201 {
+  0% {
+    left: -1000px;
+    top: 220px;
+  }
+  100% {
+    left: 17px;
+    top: 245px;
+  }
+}
+
+
+#telefon2 {
+  animation: slide201 1s ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; 
+     animation-delay: 2s;
+    
+}
+
+
+@keyframes slide202 {
+  0% {
+    left: 300px;
+    top: -100px;
+  }
+  100% {
+    left: 410px;
+    top: 245px;
+  }
+}
+
+
+#telefon3 {
+  animation: slide202 1s ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; 
+     animation-delay: 4s;
+    
+}
+
+@keyframes slide203 {
+  0% {
+    left: -1000px;
+    top: 475px;
+  }
+  100% {
+    left: 17px;
+    top: 483px;
+  }
+}
+
+
+#telefon4 {
+  animation: slide203 1s ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; 
+     animation-delay: 6s;
+    
+}
+
+
+
+@keyframes slide204 {
+  0% {
+    left: 400px;
+    top: -1000px;
+  }
+  100% {
+    left: 250px;
+    top: 483px;
+  }
+}
+
+
+#telefon5 {
+  animation: slide204 1s ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; 
+     animation-delay: 8s;
+    
+}
+
+
+@keyframes slide205 {
+  0% {
+    left: 570px;
+    top: -1000px;
+  }
+  100% {
+    left: 480px;
+    top: 480px;
+  }
+}
+
+
+#telefon6 {
+  animation: slide205 1s ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; 
+     animation-delay: 10s;
+    
+}
+
+
+
+@keyframes slide206 {
+  0% {
+    left: 75px;
+    top: 1000px;
+  }
+  100% {
+    left: 15px;
+    top: 730px;
+  }
+}
+
+
+#telefon7 {
+  animation: slide206 1s ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; 
+     animation-delay: 12s;
+    
+}
+
+button {
+  border: 0;
+  background: #0087cc;
+  border-radius: 4px;
+  box-shadow: 0 5px 0 #006599;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 12px 20px;
+  transition: all .1s linear;
+    position: fixed;
+    top: 975px;
+    left: 600px;
+        
+}
+button:active {
+  box-shadow: 0 2px 0 #006599;
+  transform: translateY(3px);
+}

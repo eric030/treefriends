@@ -1,0 +1,71 @@
+body{
+    
+    background-image:url(portadacredits.png)
+}
+
+img{
+    
+    left:-1000px;
+    position: fixed;
+}
+
+@keyframes slidecredits {
+  0% {
+    left: 0;
+    top: -500px;
+  }
+  100% {
+    left: 70px;
+    top: 30px;
+  }
+}
+
+#credits {
+  animation: slidecredits 1s ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; 
+    
+}
+
+
+
+@keyframes slidenoms {
+  0% {
+    left: -1000px;
+    top: 250px;
+  }
+  100% {
+    left: 150px;
+    top: 250px;
+  }
+}
+
+#noms {
+  animation: slidenoms 3s ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; 
+    
+}
+
+
+button {
+  border: 0;
+  background: #0087cc;
+  border-radius: 4px;
+  box-shadow: 0 5px 0 #006599;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 12px 20px;
+  transition: all .1s linear;
+    position: fixed;
+    top: 965px;
+    left: 650px;
+        
+}
+button:active {
+  box-shadow: 0 2px 0 #006599;
+  transform: translateY(3px);
+}

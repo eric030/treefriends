@@ -1,0 +1,210 @@
+img{
+    
+    left:-1000px;
+    position: fixed;
+}
+
+@keyframes slide {
+  0% {
+    left: -1000px;
+    top: 0;
+  }
+  100% {
+    left: 75px;
+    top: 0;
+  }
+}
+
+#g1 {
+  animation: slide 1s ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; 
+    
+}
+
+
+
+
+
+@keyframes slide1 {
+  0% {
+    left: -1000px;
+    top: 240px;
+  }
+  100% {
+    left: 75px;
+    top: 240px;
+  }
+}
+
+
+#g2 {
+  animation: slide1 1s ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; 
+     animation-delay: 2s;
+    
+}
+
+
+@keyframes slide2 {
+  0% {
+    left: 300px;
+    top: -100px;
+  }
+  100% {
+    left: 300px;
+    top: 240px;
+  }
+}
+
+
+#g3 {
+  animation: slide2 1s ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; 
+     animation-delay: 4s;
+    
+}
+
+
+
+@keyframes slide3 {
+  0% {
+    left: 865px;
+    top: 240px;
+  }
+  100% {
+    left: 460px;
+    top: 240px;
+  }
+}
+
+
+#g4 {
+  animation: slide3 1s ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; 
+     animation-delay: 6s;
+    
+}
+
+
+
+
+@keyframes slide4 {
+  0% {
+    left: -1000px;
+    top: 475px;
+  }
+  100% {
+    left: 75px;
+    top: 475px;
+  }
+}
+
+
+#g5 {
+  animation: slide4 1s ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; 
+     animation-delay: 8s;
+    
+}
+
+
+
+@keyframes slide5 {
+  0% {
+    left: 330px;
+    top: -1000px;
+  }
+  100% {
+    left: 330px;
+    top: 475px;
+  }
+}
+
+
+#g6 {
+  animation: slide5 1s ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; 
+     animation-delay: 10s;
+    
+}
+
+
+@keyframes slide6 {
+  0% {
+    left: -1000px;
+    top: 475px;
+  }
+  100% {
+    left: 475px;
+    top: 475px;
+  }
+}
+
+
+#g7 {
+  animation: slide6 1s ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; 
+     animation-delay: 12s;
+    
+}
+
+@keyframes slide7 {
+  0% {
+    left: 75px;
+    top: 1000px;
+  }
+  100% {
+    left: 75px;
+    top: 700px;
+  }
+}
+
+
+#g8 {
+  animation: slide7 1s ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; 
+     animation-delay: 14s;
+    
+}
+
+
+button {
+  border: 0;
+  background: #0087cc;
+  border-radius: 4px;
+  box-shadow: 0 5px 0 #006599;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 12px 20px;
+  transition: all .1s linear;
+    position: fixed;
+    top: 950px;
+    left: 600px;
+        
+}
+button:active {
+  box-shadow: 0 2px 0 #006599;
+  transform: translateY(3px);
+}
+
+
+
+
+
+
+
+
+
+
+

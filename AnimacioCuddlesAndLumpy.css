@@ -1,0 +1,154 @@
+img{
+    
+    left:-1000px;
+    position: fixed;
+    
+}
+
+@keyframes slidea {
+  0% {
+    left: -1000px;
+    top: 0;
+  }
+  100% {
+    left: 175px;
+    top: 50px;
+  }
+}
+
+#rg1 {
+  animation: slidea 1s ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; 
+    
+}
+
+
+
+@keyframes slideb {
+  0% {
+    left: -1000px;
+    top: 220px;
+  }
+  100% {
+    left: 175px;
+    top: 200px;
+  }
+}
+
+
+#rg2 {
+  animation: slideb 1s ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; 
+     animation-delay: 2s;
+    
+}
+
+
+@keyframes slidec {
+  0% {
+    left: 300px;
+    top: -100px;
+  }
+  100% {
+    left: 340px;
+    top: 200px;
+  }
+}
+
+
+#rg3 {
+  animation: slidec 1s ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; 
+     animation-delay: 4s;
+    
+}
+
+@keyframes slided {
+  0% {
+    left: -1000px;
+    top: 475px;
+  }
+  100% {
+    left: 175px;
+    top: 410px;
+  }
+}
+
+
+#rg4 {
+  animation: slided 1s ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; 
+     animation-delay: 6s;
+    
+}
+
+
+
+@keyframes slidee {
+  0% {
+    left: 400px;
+    top: -1000px;
+  }
+  100% {
+    left: 370px;
+    top: 410px;
+  }
+}
+
+
+#rg5 {
+  animation: slidee 1s ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; 
+     animation-delay: 8s;
+    
+}
+
+
+@keyframes slidef {
+  0% {
+    left: 570px;
+    top: -1000px;
+  }
+  100% {
+    left: 490px;
+    top: 410px;
+  }
+}
+
+
+#rg6 {
+  animation: slidef 1s ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; 
+     animation-delay: 10s;
+    
+}
+
+button {
+  border: 0;
+  background: #0087cc;
+  border-radius: 4px;
+  box-shadow: 0 5px 0 #006599;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 12px 20px;
+  transition: all .1s linear;
+    position: fixed;
+    top: 950px;
+    left: 600px;
+        
+}
+button:active {
+  box-shadow: 0 2px 0 #006599;
+  transform: translateY(3px);
+}
+
+
